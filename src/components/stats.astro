@@ -1,43 +1,36 @@
 <!-- ============================================ -->
 <!--                   Stats                      -->
 <!-- ============================================ -->
+<!-- ============================================ -->
+<!--                   Stats                      -->
+<!-- ============================================ -->
 
-<section id="stats-1738">
-    <div class="cs-container">
-        <ul class="cs-card-group">
-            <li class="cs-item">
-                <span class="cs-number">76%</span>
-                <p class="cs-item-text">
-                    of women feel uncomfortable when exercising in public.
-                </p>
-               <!-- <a href="" class="cs-link">
-                    <span class="cs-link-text">Our Trainer</span>
-                    <img class="cs-arrow" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/white%20right%20arrow.svg" alt="white arrow icon" width="20" height="20" aria-hidden="true">
-                </a> -->
-            </li>
-            <li class="cs-item">
-                <span class="cs-number">6 in 10</span>
-                <p class="cs-item-text">
-                    women have been harassed by men in the gym
-                </p>
-                <!-- <a href="" class="cs-link">
-                    <span class="cs-link-text">Fitness Classes</span>
-                    <img class="cs-arrow" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/white%20right%20arrow.svg" alt="white arrow icon" width="20" height="20" aria-hidden="true">
-                </a> -->
-            </li>
-            <li class="cs-item">
-                <span class="cs-number">44%</span>
-                <p class="cs-item-text">
-                    had to cut a workout short due to unwanted attention.
-                </p>
-                <!-- <a href="" class="cs-link red">
-                    <span class="cs-link-text">Testimonials</span>
-                    <img class="cs-arrow" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/white%20right%20arrow.svg" alt="white arrow icon" width="20" height="20" aria-hidden="true">
-                </a> -->
-            </li>
-        </ul>
-    </div>
+<section id="stats-209">
+  <div class="cs-container">
+      <ul class="cs-card-group">
+          <li class="cs-item">
+              <span class="cs-number">76%</span>
+              <span class="cs-header">of women feel uncomfortable when exercising in public</span>
+          </li>
+          <li class="cs-item">
+              <span class="cs-number">6 in 10</span>
+              <span class="cs-header">women have been harassed by men in the gym</span>
+          </li>
+          <li class="cs-item">
+              <span class="cs-number">44%</span>
+              <span class="cs-header">had to cut a workout short due to unwanted attention</span>
+          </li>
+      </ul>
+  </div>
+  <!--Background Image-->
+  <picture class="cs-background">
+      <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Stats/bg-m.jpg">
+      <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Stats/bg.jpg">
+      <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Stats/bg.jpg" alt="brick wall" width="1920" height="1282" aria-hidden="true">
+  </picture>
 </section>
+                              
+
 <style>
     /*-- -------------------------- -->
 <---           Stats            -->
@@ -45,101 +38,132 @@
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
-  #stats-1738 {
-    position: relative;
-    z-index: 1;
-  }
-  #stats-1738 .cs-container {
-    
-    margin: auto;
-    position: relative;
-  }
-  #stats-1738 .cs-card-group {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-  }
-  #stats-1738 .cs-item {
-    list-style: none;
-   
-    /* 325px - 480px */
-    min-height: clamp(20.3rem, 38vw, 30rem);
-    /* 60px - 135px Top & bottom */
-    /* 16px - 60px left & right */
-    padding: clamp(3.75rem, 12vw, 8.4375rem) clamp(1rem, 2vw, 3.75rem);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  #stats-1738 .cs-item:nth-of-type(1) {
-    background-color: #5F5F5F;
-  }
-  #stats-1738 .cs-item:nth-of-type(2) {
-    background-color: var(--primary);
-  }
-  #stats-1738 .cs-item:nth-of-type(3) {
-    background-color: #1D1C1C;
-  }
-  #stats-1738 .cs-number {
-    /* 49px - 84px */
-    font-size: clamp(3.8125rem, 7.1vw, 5.25rem);
-    font-weight: 700;
-    line-height: 1.2em;
-    text-align: center;
-    /* 12px - 16px */
-    margin-bottom: 1rem;
-    color: var(--bodyTextColorWhite);
-    display: block;
-  }
-  #stats-1738 .cs-item-text {
-    font-size: 1rem;
-    line-height: 1.5em;
-    text-align: center;
-    max-width: 32.5rem;
-    margin: 0;
-    color: var(--bodyTextColorWhite);
-    opacity: .9;
-  }
-  #stats-1738 .cs-link {
-    font-size: 1rem;
-    font-weight: 700;
-    line-height: 1.2em;
-    text-align: inherit;
-    text-decoration: none;
-    margin-top: 1.5rem;
-    color: var(--bodyTextColorWhite);
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 0.25rem;
-    transition: color 0.3s;
-  }
-  #stats-1738 .cs-link:hover .cs-arrow {
-    transform: translateX(0.25rem);
-  }
-  #stats-1738 .cs-link-text {
-    width: 100%;
-    display: block;
-  }
-  #stats-1738 .cs-arrow {
-    width: 1.25rem;
-    height: auto;
-    display: block;
-    transition: transform .3s;
-  }
+    #stats-209 {
+        padding: var(--sectionPadding);
+        position: relative;
+        z-index: 1;
+    }
+    #stats-209 .cs-container {
+        width: 100%;
+        max-width: 80rem;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* 48px - 64px */
+        gap: clamp(3rem, 6vw, 4rem);
+    }
+    #stats-209 .cs-content {
+        /* set text align to left if content needs to be left aligned */
+        text-align: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* centers content horizontally, set to flex-start to left align */
+        align-items: center;
+    }
+
+    #stats-209 .cs-title {
+        color: var(--bodyTextColorWhite);
+    }
+    #stats-209 .cs-text {
+        color: var(--bodyTextColorWhite);
+        opacity: 0.8;
+    }
+    #stats-209 .cs-card-group {
+        width: 100%;
+        /* 500px - 887px */
+        max-width: clamp(31.25em, 70vw, 55.4375em);
+        margin: 0;
+        padding: 0;
+        border-radius: 0.3125rem;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        column-gap: 1.75em;
+        row-gap: 1.75em;
+        box-shadow: 0 1.25em 2.5em 0 rgba(0, 0, 0, 0.05);
+        /* prevents padding from adding to the width of the container */
+        box-sizing: border-box;
+    }
+    #stats-209 .cs-item {
+        text-align: center;
+        list-style: none;
+        width: 38%;
+    }
+    #stats-209 .cs-number {
+        /* 39px - 61px */
+        font-size: clamp(2.4375rem, 4.7vw, 3.8125rem);
+        font-weight: 700;
+        line-height: 1.2em;
+        /* 4px - 8px */
+        margin-bottom: clamp(0.25rem, 0.78vw, 0.5rem);
+        color: var(--primary);
+        display: block;
+    }
+    #stats-209 .cs-header {
+        /* 16px - 25px */
+        font-size: clamp(1rem, 2vw, 1.5625rem);
+        font-weight: 700;
+        line-height: 1.2em;
+        color: var(--bodyTextColorWhite);
+    }
+    #stats-209 .cs-background {
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+    #stats-209 .cs-background:before {
+        /* Overlay */
+        content: "";
+        position: absolute;
+        display: block;
+        height: 100%;
+        width: 100%;
+        background: #000;
+        opacity: 0.8;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+    #stats-209 .cs-background img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
 }
-/* Tablet - 768px */
-@media only screen and (min-width: 48rem) {
-  #stats-1738 .cs-card-group {
-    flex-direction: row;
-  }
-  #stats-1738 .cs-item {
-    justify-content: flex-start;
-  }
+/* Tablet - 720px */
+@media only screen and (min-width: 45rem) {
+    #stats-209 .cs-card-group {
+        justify-content: space-between;
+    }
+    #stats-209 .cs-item {
+        /* reset width */
+        width: 20vw;
+        max-width: 14.8125rem;
+    }
 }
+/* Big Desktop Parallax Effect - 1300px */
+@media only screen and (min-width: 81.25rem) {
+    #stats-209 .cs-background {
+        background: url("https://csimg.nyc3.digitaloceanspaces.com/Stats/bg.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    #stats-209 .cs-background img {
+        display: none;
+    }
+}
+
                                 
-</style>
                                 
