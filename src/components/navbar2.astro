@@ -66,7 +66,7 @@ body,
 html {
     /* reset margin and padding so there's no gap between the nav and the screen edges */
     margin: 0;
-       padding: 0;
+    padding: 0;
 }
 
 /* Mobile - 767px */
@@ -195,7 +195,7 @@ html {
         /* prevents padding and border from affecting height and width */
         box-sizing: border-box;
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         z-index: 10;
     }
@@ -400,7 +400,6 @@ html {
     }
     #cs-navigation .cs-top-container {
         width: 100%;
-        max-width: 80rem;
         padding: 1rem;
         /* prevents padding and border from affecting height and width */
         box-sizing: border-box;
@@ -459,7 +458,6 @@ html {
         width: 100%;
         /* same height as the cs-ul-wrapper */
         height: 5.8125rem;
-        max-width: 80rem;
         margin: auto;
         padding: 0 1rem;
         /* prevents padding from affectin gheight */
@@ -474,20 +472,20 @@ html {
         display: none;
     }
     #cs-navigation .cs-logo {
-        width: 18.4%;
-        max-width: 12.3125rem;
-        height: 3.75rem;
-        /* margin-right auto pushes everything away from it to the right */
+        width: auto;
+        height: auto;
         margin: 0 auto 0 0;
         padding: 0;
+        /* prevents padding and border from affecting height and width */
+        box-sizing: border-box;
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
-        z-index: 100;
+        z-index: 10;
     }
     #cs-navigation .cs-logo img {
-        width: 100%;
-        height: 100%;
+        width: 3.5rem;
+        height: 3.5rem;
         /* ensures the image never overflows the container. It stays contained within it's width and height and expands to fill it then stops once it reaches an edge */
         object-fit: contain;
     }
